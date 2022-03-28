@@ -1,0 +1,32 @@
+
+
+.CalculatorGrid{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(5, 120px)
+}
+
+.output{
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: grey;
+    
+}
+
+.LargeButton{
+    grid-column: span 2;
+    background-color: lightsteelblue
+}
+
+.number{
+    font-size: large;
+}
+
+.operator{
+    font-size: large;
+}
