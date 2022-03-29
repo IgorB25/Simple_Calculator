@@ -9,11 +9,16 @@
     grid-template-rows: repeat(5, 120px)
 }
 
-.output{
+#output{
     grid-column: 1 / -1;
     display: flex;
     align-items: flex-end;
+    justify-content: space-around;
+    overflow-wrap: break-word;
+    word-break: break-all;
     flex-direction: column;
+    padding: 10px;
+    font-size: 50px;
     background-color: grey;
     
 }
