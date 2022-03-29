@@ -1,10 +1,13 @@
 let DisplayValue;
+    
+let output = document.querySelector('#output');
 
 let number = document.querySelectorAll(".number").forEach(number => {
     number.addEventListener('click', () =>{
-        console.log("bla")
         FirstNum = number.textContent;
-        console.log(FirstNum)
+        DisplayValue = number.textContent;
+        output.textContent += FirstNum;
+    
     })
 })
 
