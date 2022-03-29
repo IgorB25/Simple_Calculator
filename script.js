@@ -1,3 +1,16 @@
+let DisplayValue;
+
+let number = document.querySelectorAll(".number").forEach(number => {
+    number.addEventListener('click', () =>{
+        console.log("bla")
+        FirstNum = number.textContent;
+        console.log(FirstNum)
+    })
+})
+
+
+
+
 
  function add(FirstNum,SecondNum){
     FirstNum += SecondNum;
@@ -49,3 +62,6 @@ function operate(operator,FirstNum,SecondNum){
 }
 
 //operate("/",7,2)
+
+
+  
